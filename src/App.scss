@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.main-col {
+  max-width: 500px;
+}
+
+$box-color: hsl(0, 0%, 29%);
+
+@import "bulma/sass/utilities/_all";
+
+$box-shadow: 0 0.5em 1em -0.125em rgba($scheme-invert, 0.2), 0 0px 0 1px rgba($scheme-invert, 0.3);
+
+@import 'bulma/bulma.sass';
